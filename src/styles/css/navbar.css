@@ -1,0 +1,26 @@
+/* Navbar.CSS */
+.navbar { display: flex; justify-content: center; align-items: center; width: 100%; color:hsl(219, 9%, 45%); padding-top: 40px; padding-bottom: 30px; border-bottom: 1px solid hsl(219, 9%, 45%) }
+.nav-links { display: flex; align-items: center; gap: 25px; font-size: 16px; padding-right: 450px; cursor: pointer }
+.nav-links div:hover { color: hsl(220, 13%, 13%); border-bottom: 3px solid hsl(26, 100%, 55%) }
+.nav-actions { display: flex; align-items: center; gap: 35px }
+.brand-name { padding-right: 50px }
+.img-profile:hover { border-radius: 50%; border: 2px solid hsl(26, 100%, 55%) }
+
+/* SECTION.CSS */
+.section-container { display: flex; justify-content: center; align-items: flex-start; margin-top: 30px; gap: 160px }
+.product-description { margin-top: 40px; display: flex; flex-direction: column; justify-content: center; gap: 40px }
+.image-thumbnail { display: flex; justify-content: space-evenly; align-items: flex-start; gap: 10px }
+.shoes-container { border-radius: 15px; object-fit: fill }
+.sm-shoes-thumbnail { border-radius: 7px; margin-top: 20px; margin-bottom: 20px }
+.sm-shoes-thumbnail:hover { object-fit: cover; background-color: hsl(0, 0%, 0%); opacity: 15px }
+.product-title { color: hsl(26, 100%, 55%); font-size: 16px !important; font-weight: 600; letter-spacing: 3px }
+.product-type { display: flex; flex-direction: column; color: hsl(0, 0%, 0%); font-weight: 600; font-size: 44px }
+.product-description { color: hsl(220, 14%, 75%); font-weight: 400; font-size: 20px }
+.product-price {display: flex; gap: 10px; align-items:center }
+.product-price .product-MRP { color: hsl(0, 0%, 0%); font-weight: 600; font-size: 28px }
+.product-discount::before { content: "50%"; background-color: hsl(25, 100%, 94%); color: hsl(26, 100%, 55%); padding: 2px; padding-inline: 6px; border-radius: 6px; font-weight: 600 }
+.original-MRP { margin-top: -25px;font-size: 18px; text-decoration: line-through }
+.cart-actions { display: flex; justify-content: flex-start; align-items: center; gap: 18px; }
+.cart-action-box { padding: 13px; height: 13px; width: 13px; background-color: hsl(223, 64%, 98%); color: black; font-size: 22px; font-weight: 400; cursor: pointer }
+.shopping-cart { cursor: pointer; border: none; width: 230px; height: 50px; display: flex; align-items: center; justify-content: center; background-color: hsl(26, 100%, 55%); border-radius: 10px; box-shadow: 10px 10px 10px hsl(25, 100%, 94%) }
+.cart-text { margin-left: 14px; font-size: 20px; color: #FFF; font-weight: 600;}
