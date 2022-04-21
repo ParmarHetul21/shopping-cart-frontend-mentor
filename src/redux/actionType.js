@@ -1,0 +1,3 @@
+export const INCREMENT = "INCREMENT_QUANTITY";
+export const DECREMENT = "DECREMENT_QUANTITY";
+export const ADD_SHOES = "ADD_SHOES"

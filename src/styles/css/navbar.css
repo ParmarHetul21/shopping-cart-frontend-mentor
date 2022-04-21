@@ -8,19 +8,30 @@
 
 /* SECTION.CSS */
 .section-container { display: flex; justify-content: center; align-items: flex-start; margin-top: 30px; gap: 160px }
-.product-description { margin-top: 40px; display: flex; flex-direction: column; justify-content: center; gap: 40px }
 .image-thumbnail { display: flex; justify-content: space-evenly; align-items: flex-start; gap: 10px }
 .shoes-container { border-radius: 15px; object-fit: fill }
 .sm-shoes-thumbnail { border-radius: 7px; margin-top: 20px; margin-bottom: 20px }
 .sm-shoes-thumbnail:hover { object-fit: cover; background-color: hsl(0, 0%, 0%); opacity: 15px }
 .product-title { color: hsl(26, 100%, 55%); font-size: 16px !important; font-weight: 600; letter-spacing: 3px }
 .product-type { display: flex; flex-direction: column; color: hsl(0, 0%, 0%); font-weight: 600; font-size: 44px }
-.product-description { color: hsl(220, 14%, 75%); font-weight: 400; font-size: 20px }
+.product-description { color: hsl(220, 14%, 75%); font-weight: 400; font-size: 20px;margin-top: 40px; display: flex; flex-direction: column; justify-content: center; gap: 40px }
 .product-price {display: flex; gap: 10px; align-items:center }
 .product-price .product-MRP { color: hsl(0, 0%, 0%); font-weight: 600; font-size: 28px }
 .product-discount::before { content: "50%"; background-color: hsl(25, 100%, 94%); color: hsl(26, 100%, 55%); padding: 2px; padding-inline: 6px; border-radius: 6px; font-weight: 600 }
 .original-MRP { margin-top: -25px;font-size: 18px; text-decoration: line-through }
-.cart-actions { display: flex; justify-content: flex-start; align-items: center; gap: 18px; }
-.cart-action-box { padding: 13px; height: 13px; width: 13px; background-color: hsl(223, 64%, 98%); color: black; font-size: 22px; font-weight: 400; cursor: pointer }
+.cart-price-section { display: flex; justify-content: space-evenly; align-items: center;}
+.cart-price { display: flex; flex-direction: column; align-items: flex-start; gap: 12px;}
+.cart-actions { display: flex; justify-content: flex-start; align-items: center; gap: 18px }
+.cart-action-box { padding: 13px; height: 13px; width: 13px; background-color: hsl(223, 64%, 98%); color: black; font-size: 22px; font-weight: 400; cursor: pointer; }
 .shopping-cart { cursor: pointer; border: none; width: 230px; height: 50px; display: flex; align-items: center; justify-content: center; background-color: hsl(26, 100%, 55%); border-radius: 10px; box-shadow: 10px 10px 10px hsl(25, 100%, 94%) }
-.cart-text { margin-left: 14px; font-size: 20px; color: #FFF; font-weight: 600;}
+.cart-text { margin-left: 14px; font-size: 20px; color: #FFF; font-weight: 600 }
+.shopping-cart-design { position: relative }
+.shoppping-cart-box { height: 250px; width: 420px; background-color: #FFF; box-shadow: 1px 6px 5px hsl(219, 9%, 45%); position: absolute; right: 0; top: 0 }
+.cart-title { font-size: 18px; line-height: 50px; padding-left: 20px; font-weight: 600 }
+.shoes-icon { background-size: cover; border-radius: 6px; }
+.final-price { font-weight: 600;}
+.cart-icon-delete { cursor: pointer; }
+.cart-price-title { font-size: 18px; }
+.cart-calculated-price { font-size: 16px }
+.cart-checkout { margin-top: 45px; border: none; background-color: hsl(26, 100%, 55%); color: #FFF; height: 50px; width: 340px; border-radius: 8px; font-size: 22px;}
+.btn-cart-checkout { display: flex; justify-content: center; align-items: center;}
